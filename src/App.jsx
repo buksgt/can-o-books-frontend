@@ -14,7 +14,7 @@ const handleCloseModal = () => setShowModal(false);
 
 useEffect( () => {
   getBooks();
-}, []);
+}, []); 
 
     
 async function getBooks (){ 
