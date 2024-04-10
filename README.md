@@ -21,14 +21,13 @@ The application is built on a modern tech stack, integrating a React front-end w
 
 ### Key Features
 
-Dce on the front end allows for an engaging experience as users exata Management: At the heart of the application is the ability to effectively manage book data. This includes creating a schema in the back-end to model the book data precisely as we want it represented.
+    Data Management: At the heart of the application is the ability to effectively manage book data. This includes creating a schema in the back-end to model the book data precisely as we want it represented.
 
     Database Seeding: Initial seed data will populate the database with a curated list of impactful books, setting the stage for personalization and discovery.
 
-    Reading Data: The application focuses on the 'Read' operation from 
-    CRUD for this assignment, enabling users to view a collection of books retrieved from the database through the front-end interface.
+    Reading Data: The application focuses on the 'Read' operation from CRUD for this assignment, enabling users to view a collection of books retrieved from the database through the front-end interface.
 
-    User Interface: A clean and user-friendly interfaplore books that have made a mark on their lives or discover new recommendations.
+    User Interface: A clean and user-friendly interface to explore books that have made a mark on the users lives or discover new recommendations.
 
 ## Getting Started
 
@@ -42,15 +41,23 @@ Dce on the front end allows for an engaging experience as users exata Management
 
 ## Estimates
 
-Name of feature: User Storage
+    Name of feature: Carousel
+    Estimate of time needed to complete: 2 hours
+    Start time: 
+    Finish time:  
+    Actual time needed to complete:  
+  
 
-Estimate of time needed to complete: 2 hours
+    Name of feature: Add/Delete Modal
+    Estimate of time needed to complete: 2 hours
+    Start time: 
+    Finish time:  
+    Actual time needed to complete:  
 
-Start time:  9:30pm EST
+## Lighthouse Score
 
-Finish time:  
-
-Actual time needed to complete:  
+### April 9th 2024:
+![Lighthouse](./src/LighthouseApril92024.png)
 
 ## Credit and Collaborations
 
