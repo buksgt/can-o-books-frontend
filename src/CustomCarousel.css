@@ -1,0 +1,12 @@
+/* CustomCarousel.css */
+
+/* Target the left arrow */
+.carousel-control-prev-icon {
+    background-color: red; /* Change to your desired color */
+  }
+  
+  /* Target the right arrow */
+  .carousel-control-next-icon {
+ 
+    background-color: blue; /* Change to your desired color */
+  }

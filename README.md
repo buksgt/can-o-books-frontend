@@ -57,7 +57,7 @@ Finish time:
 Actual time needed to complete:  
 
 ## Credit and Collaborations
-
+<a href="https://www.flaticon.com/free-icons/books" title="books icons">Books icons created by popo2021 - Flaticon</a>
 ### Collaborations  
 
 #### Logistical
