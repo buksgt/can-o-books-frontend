@@ -1,8 +1,7 @@
 # Can of Books
 
-**Author**:   
+**Author**:
 Evan Cheng  
-Ben Borden  
 
 **Version**: 1.0.0
 
@@ -20,7 +19,7 @@ At its core, this application is a CRUD (Create, Read, Update, Delete) web app t
 
 The application is built on a modern tech stack, integrating a React front-end with an Express back-end, all while leveraging a MongoDB database for storage. This architecture not only allows for a responsive and intuitive user interface but also ensures robust and scalable data management.
 
-### Key Features:
+### Key Features
 
 Dce on the front end allows for an engaging experience as users exata Management: At the heart of the application is the ability to effectively manage book data. This includes creating a schema in the back-end to model the book data precisely as we want it represented.
 
@@ -31,9 +30,7 @@ Dce on the front end allows for an engaging experience as users exata Management
 
     User Interface: A clean and user-friendly interfaplore books that have made a mark on their lives or discover new recommendations.
 
-    
 ## Getting Started
-
 
 ## Architecture
 
@@ -42,13 +39,12 @@ Dce on the front end allows for an engaging experience as users exata Management
 04-08-2024 6:45pm - Both repos (backend and frontend) are online.
 04-08-2024 7:45pm - Atlas server connected to backend repo.
 04-08-2024 8:15pm - Backend repo connected to Render.
-04-08-2024 9:30pm - 
-
 
 ## Estimates
+
 Name of feature: User Storage
 
-Estimate of time needed to complete: 2 hours 
+Estimate of time needed to complete: 2 hours
 
 Start time:  9:30pm EST
 
@@ -57,7 +53,7 @@ Finish time:
 Actual time needed to complete:  
 
 ## Credit and Collaborations
-<a href="https://www.flaticon.com/free-icons/books" title="books icons">Books icons created by popo2021 - Flaticon</a>
+
 ### Collaborations  
 
 #### Logistical
@@ -81,6 +77,7 @@ Utilize TA help and schedule tutoring sessions if needed.
 #### Cooperative
 
 **Make a list of each person's strengths.**  
+
 - **Ben:** Communication, teamwork, quick-learner
 - **Evan:** Communication, teamwork, creativity
 
@@ -89,6 +86,7 @@ Utilize TA help and schedule tutoring sessions if needed.
 Good communication with each other is important in order to maintain consistent code and debugging of our application.
 
 **In what areas do you each want to develop greater strength?**  
+
 - **Ben:** Technical concepts and understanding of project set-up and initiation. Proficiency with coding procedure.
 
 - **Evan:** Technical concepts and understanding of project set-up and initiation.
