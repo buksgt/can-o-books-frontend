@@ -1,18 +1,21 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import { Carousel } from 'react-bootstrap';
+import { Carousel, Button } from 'react-bootstrap';
 import bookCover from './stack-of-books.png';
+import BookFormModal from './BookFormModal';
 
 function App() {
-
 const [books, setBooks] = useState([]);
+const [showModal, setShowModal] = useState(false);
+
+const handleShowModal = () => setShowModal(true);
+const handleCloseModal = () => setShowModal(false);
 
 
 useEffect( () => {
   getBooks();
 }, []);
 
-//https://can-of-books-backend-qs90.onrender.com/books
     
 async function getBooks (){ 
   try {
@@ -49,25 +52,29 @@ async function addBook(book) {
   }
 }
 
-  return (
-      <Carousel>
+return (
+  <>
+    <Button variant="primary" onClick={handleShowModal}>Add Book</Button> {/* Add Book Button */}
+    <BookFormModal show={showModal} handleClose={handleCloseModal} handleSubmit={addBook} /> {/* BookFormModal Component */}
+    <Carousel>
       {books.map(book => (
         <Carousel.Item key={book.id}>
           <img
             className="d-block w-100"
             src={bookCover}
             alt={book.title}
-            style={{height: "500px", width: "250px"}}
+            style={{ height: "500px", width: "250px" }}
           />
-          <Carousel.Caption style={{color: "black"}}>
+          <Carousel.Caption style={{ color: "black" }}>
             <h3>{book.title}</h3>
             <p>{book.description}</p>
+            <Button variant="danger" onClick={() => deleteBooks(book.id)}>Delete</Button> {/* Delete Book Button */}
           </Carousel.Caption>
-        </Carousel.Item> 
-        ))}
-      </Carousel>  
-    );
-  }
-
+        </Carousel.Item>
+      ))}
+    </Carousel>
+  </>
+);
+}
 
 export default App;
