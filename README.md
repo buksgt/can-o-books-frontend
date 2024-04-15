@@ -59,6 +59,8 @@ The application is built on a modern tech stack, integrating a React front-end w
 ### April 9th 2024:
 ![Lighthouse](./src/LighthouseApril92024.png)
 
+### April 12th 2024:
+![Lighthouse](./src/LighthouseApril132024.png)
 ## Credit and Collaborations
 
 ### Collaborations  
